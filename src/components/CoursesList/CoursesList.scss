@@ -1,0 +1,7 @@
+.coursesList {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  width: 100%;
+  grid-auto-rows: max-content;
+}
